@@ -1,0 +1,64 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-top .btn-new {
+    background-color: #00d7d2;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 7px;
+}
+
+#header-top a{
+    padding: 10px;
+    color: #5b6987;
+    font-weight: 500;
+}
+
+#header-top {
+    padding: 10px 10px;
+    border-bottom: 1px solid #e5e8ed;
+}
+.header-top-left{
+    float: left;
+}
+
+.header-top-right ul>li{
+    float: right;
+}
+nav .logo {
+    width: 170px;
+}
+
+nav ul{
+    padding: 8px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+#jumbotron #signup{
+    background-color: white;
+}
+
+#jumbotron h1 {
+    color: white;
+    font-weight: 700;
+}
+
+#jumbotron p:first-of-type {
+    color: white;
+    opacity: 0.8;
+}
+
+#jumbotron{
+    background-image: url(img/jumbotron.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 150px;
+    margin-top: 107px;
+}
