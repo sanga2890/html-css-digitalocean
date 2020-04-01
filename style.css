@@ -2,63 +2,155 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#header-top .btn-new {
-    background-color: #00d7d2;
-    border-radius: 5px;
-    font-size: 10px;
+ .navbar-left .btn-new  {
+     background-color: #00d7d2;
+     border-radius: 5px;
+     font-size: 10px;
+     padding: 5px 7px;
+     font-weight: 500;
+     margin-left: 18px;
+}
+
+.header-top.navbar-left {
+    padding-top: 10px;
+}
+
+.header-top.navbar-left a, .header-top.navbar-right a {
+    font-size: 12px;
     font-weight: 600;
-    padding: 5px 7px;
-}
-
-#header-top a{
-    padding: 10px;
     color: #5b6987;
-    font-weight: 500;
 }
 
-#header-top {
-    padding: 10px 10px;
-    border-bottom: 1px solid #e5e8ed;
-}
-.header-top-left{
-    float: left;
+.header-top.navbar-left a:hover {
+    text-decoration: none;
+    color:#0080ff;
 }
 
-.header-top-right ul>li{
-    float: right;
-}
-nav .logo {
-    width: 170px;
+.header-top.nav>li>a {
+    padding: 10px 20px 10px 8px;
 }
 
-nav ul{
-    padding: 8px;
+.header-top.nav>li>a:hover {
+    color:#5b6987;
 }
 
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    border: 0;
-}
-
-#jumbotron #signup{
+.header-top.navbar{
     background-color: white;
+    min-height: 40px;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
 }
 
-#jumbotron h1 {
-    color: white;
+.navbar-brand img {
+    max-width: 170px;
+    padding-top: 3px;
+    margin-right: 20px;
+    margin-left: 18px;
+}
+
+.header-bottom.navbar {
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid #e5e8ed;
+    margin-bottom: 0;
+}
+
+ .header-bottom.nav.navbar-left {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header-bottom.nav.navbar-left a{
+    padding-left: 7px;
+    color: #031b4e;
+}
+.header-bottom.nav.navbar-left a:hover{
+    color:#0080ff;
+}
+.header-bottom.nav.navbar-right button{
+    color: #0080ff;
+    border-color: #0080ff;
     font-weight: 700;
 }
 
-#jumbotron p:first-of-type {
+#jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    padding-top: 112px;
+}
+#jumbotron h1 {
     color: white;
-    opacity: 0.8;
+    font-weight: 700;
+    padding-top: 100px;
 }
 
-#jumbotron{
-    background-image: url(img/jumbotron.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding: 150px;
-    margin-top: 107px;
+#jumbo-left p {
+    color:white;
+    opacity:0.8;
+    line-height: 35px;
+    font-size: 23px;
+    font-weight:500;
+}
+
+#jumbotron .row {
+    padding-top: 100px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+#jumbotron .form .h2{
+    color:  #031b4e;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.form input{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#jumbotron .form .separation p{
+    color: black;
+    font-size: 14px;
+    line-height: 45px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+button[name="account"]{
+    background-color: #0069ff;
+}
+
+button[name="account"]:hover{
+    background-color: #1633ff;
+}
+
+#terms p{
+    color:black;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+button[name="google"] img{
+    padding-right: 20px;
+}
+
+button[name="github"] img{
+    padding-right: 20px;
+}
+
+button[name="google"]{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+button[name="github"]{
+    font-weight: 600;
+    font-size: 18px;
 }
