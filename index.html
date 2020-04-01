@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- parte alta dell'header con classe navbar di bootstrap -->
-        <nav class="header-top navbar navbar-default navbar-fixed-top">
+        <nav class="header-top navbar navbar-default navbar-fixed-top ">
         <div class="container-fluid">
             <!-- parte sinistra -->
            <div class="header-top navbar-left">
@@ -28,19 +28,17 @@
       </ul>
     </div>
   </div>
+
   <!-- parte bassa dell'header inclusa nel nav principale -->
-  <nav class="header-bottom navbar navbar-default">
+  <nav class="header-bottom navbar navbar-default hidden-xs hidden-sm ">
   <div class="container-fluid">
     <div class="header-bottom navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-          <!-- icona hamburger menu per il mobile -->
-        <i class="fas fa-bars"></i>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo DigitalOcean"> </a>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo DigitalOcean"> </a>
     </div>
     <!-- div per il collapse del menu principale per la versione mobile -->
     <div class="header-bottom collapse navbar-collapse" id="menu">
-      <ul class="text-capitalize header-bottom nav navbar-nav  navbar-left">
+      <ul class="text-capitalize header-bottom nav navbar-nav  navbar-left hidden-xs hidden-sm">
           <!-- menu principale -->
           <li><a href="#">products <span class="glyphicon glyphicon-menu-down"></span> </a> </li>
           <li><a href="#">marketplace</a> </li>
@@ -59,6 +57,13 @@
 </nav>
 <!-- inizio jumbotron -->
 <section id="jumbotron" class="jumbotron">
+    <!-- sezione sotto header che compare lasciando il posto alla navbar quando la min-width è di 992px -->
+    <div class="container-fluid under-header hidden-md hidden-lg">
+        <a href="#"><img src="img/logo-white.png" alt="logo DigitalOcean"> </a>
+        <div class="hamburger">
+            <i class="visible-xs visible-sm fas fa-bars"></i>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <!-- parte sinistra del jumbotron -->

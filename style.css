@@ -75,9 +75,19 @@
 }
 
 #jumbotron {
-    background-image: url(img/jumbotron.jpg);
-    padding-top: 112px;
+    background: #0248ff url(img/jumbotron.jpg);
+    padding-top: 90px;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
+
+.hamburger{
+    float: right;
+    font-size: 30px;
+    padding-right: 20px;
+    color: white;
+}
+
 #jumbotron h1 {
     color: white;
     font-weight: 700;
