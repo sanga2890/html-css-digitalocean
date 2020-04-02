@@ -196,17 +196,17 @@ button[name="github"]{
 }
 #deploy-scale {
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
 }
 
-#deploy-scale .row-top h2 {
+h2 {
     color: #031b4e;
     font-weight: 700;
     font-size: 35px;
     padding-bottom: 10px;
 }
 
-#deploy-scale .row-top p {
+p.after-h2 {
     font-size: 19px;
     font-weight: 500;
     color: rgba(3,27,78,.7);
@@ -248,12 +248,69 @@ button[name="github"]{
 .row-bottom h3 {
     font-size: 18px;
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    color: #031b4e;
 }
 
-.row-bottom p {
+#deploy-scale .row-bottom p {
     font-weight: 500;
     color:rgba(3,27,78,.7);
     line-height: 23px;
     font-size: 15px;
+    padding-bottom: 35px;
+}
+
+#slide{
+    padding-top: 100px;
+    padding-bottom: 130px;
+    background-color: #f3f5f9;
+}
+
+#slide .row-top {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img-gallery::before{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 40px;
+    color:rgba(3,27,78,.7);
+    position: absolute;
+    top: 50%;
+    transform:translateX(-180%);
+    left: 0;
+}
+
+.img-gallery::after{
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 40px;
+    color:black ;
+    position: absolute;
+    top: 50%;
+    transform:translateX(+80%);
+    right: 0;
+}
+
+.img-gallery:hover::after{
+    color: #0069ff;
+}
+
+#slide .row-bottom p{
+    padding: 35px;
+}
+
+.row-bottom .far:first-of-type{
+    color: #0069ff;
+    font-weight: bold;
+    font-size: 11px;
+    padding-right: 10px;
+}
+.row-bottom .far{
+    color: #0069ff;
+    font-size:11px;
+    padding-right: 10px;
 }
