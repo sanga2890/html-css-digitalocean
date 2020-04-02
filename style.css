@@ -79,6 +79,7 @@
     padding-top: 90px;
     background-position: bottom;
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 
 .hamburger{
@@ -104,6 +105,7 @@
 
 #jumbotron .row {
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .form {
@@ -165,8 +167,30 @@ button[name="github"]{
     font-size: 18px;
 }
 
+#sponsor {
+    background-color: #f3f5f9;
+}
+
 #sponsor img {
-    width: 200px;
+    width: 160px;
     height: 100px;
     object-fit: contain;
+    padding: 10px;
+}
+
+#sponsor .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sponsor .row-top h4{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+#sponsor .row-bottom p>a {
+    font-weight: 600;
+    color: #0069ff;
+    font-size: 15px;
 }
