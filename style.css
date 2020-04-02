@@ -314,3 +314,33 @@ p.after-h2 {
     font-size:11px;
     padding-right: 10px;
 }
+
+#built-for{
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+#built-for h2 {
+    padding-bottom: 50px;
+}
+
+#built-for h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #031b4e;
+    padding-bottom: 15px;
+}
+
+#built-for p{
+    color: rgba(3,27,78,.7);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+
+#built-for a{
+    color: #0069ff;
+    font-size: 15px;
+    font-weight: 600;
+}
