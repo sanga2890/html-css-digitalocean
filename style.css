@@ -457,6 +457,35 @@ p.after-h2 {
     padding-right: 10px;
 }
 
+#get-started{
+    background: #0248ff url(img/jumbotron.jpg);
+    background-position: -150px bottom;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+
+}
+#get-started h2{
+    color:white;
+    padding-bottom: 20px;
+}
+
+#get-started button {
+    background-color: white;
+    color: #0069ff;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 13px 30px;
+}
+
+#get-started button:hover{
+    background-color: hsla(0,0%,100%,.8);
+    border: none;
+    color: #0069ff;
+}
+
 
 
 
