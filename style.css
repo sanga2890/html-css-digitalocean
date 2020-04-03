@@ -462,7 +462,7 @@ p.after-h2 {
     background-position: -150px bottom;
     background-repeat: no-repeat;
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 
 
 }
@@ -486,6 +486,73 @@ p.after-h2 {
     color: #0069ff;
 }
 
+footer{
+    background-color: #010E27;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+footer h5{
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.5);
+}
+
+footer li {
+    padding-bottom: 8px;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.list-menu{
+    border-bottom: 1px solid hsla(0,0%,100%,.5);
+    padding-bottom: 50px;
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    color: hsla(0,0%,100%,.5);
+}
+
+.footer-bottom-left img {
+    width: 50px;
+    float: left;
+}
+.footer-bottom-left img:hover {
+    cursor: pointer;
+}
+
+.footer-bottom-left p{
+    float: left;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.footer-bottom-right {
+    text-align: right;
+    font-size: 25px;
+}
+
+.footer-bottom i{
+    padding-left: 20px;
+}
+
+.footer-bottom i:hover{
+    color: white;
+    cursor: pointer;
+}
 
 
 
@@ -493,5 +560,9 @@ p.after-h2 {
 @media (max-width:767px) {
     .img-gallery::before,.row-slide::before,.row-slide::after,.img-gallery::after{
         display: none;
+    }
+
+    .footer-bottom-right {
+        text-align: center;
     }
 }
