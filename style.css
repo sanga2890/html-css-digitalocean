@@ -86,7 +86,11 @@
     float: right;
     font-size: 30px;
     padding-right: 20px;
-    color: white;
+    color: hsla(0,0%,100%,.5);
+}
+
+.hamburger:hover{
+    cursor: pointer;
 }
 
 #jumbotron h1 {
@@ -101,6 +105,7 @@
     line-height: 35px;
     font-size: 23px;
     font-weight:500;
+    padding-bottom: 30px;
 }
 
 #jumbotron .row {
@@ -217,13 +222,17 @@ p.after-h2 {
     padding-bottom: 60px;
 }
 
+#deploy-scale .row-bottom ul {
+    padding-left: 0;
+}
+
 #deploy-scale .row-bottom ul>li{
     list-style: none;
     text-decoration: none;
     padding: 18px 0 18px 30px ;
     border-left: 2px solid #e5e8ed;
 }
-#select {
+#deploy-scale ul>li#select {
     border-left: 2px solid #0069ff;
 }
 
@@ -258,6 +267,10 @@ p.after-h2 {
     line-height: 23px;
     font-size: 15px;
     padding-bottom: 35px;
+}
+
+.vertical-list{
+    padding-bottom: 30px;
 }
 
 #slide{
@@ -343,6 +356,10 @@ p.after-h2 {
     color: #0069ff;
     font-size: 15px;
     font-weight: 600;
+}
+
+.built-box {
+    padding-bottom: 20px;
 }
 
 #earth h2{
@@ -546,7 +563,7 @@ footer a:hover{
 }
 
 .footer-bottom i{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .footer-bottom i:hover{
@@ -564,5 +581,19 @@ footer a:hover{
 
     .footer-bottom-right {
         text-align: center;
+    }
+
+    #jumbotron h1{
+        padding-top: 0;
+    }
+
+    #jumbotron .row{
+        padding-top: 50px;
+    }
+
+    nav a.ellipsis {
+        white-space: nowrap;
+        width: 50px;
+        text-overflow: ellipsis;
     }
 }
