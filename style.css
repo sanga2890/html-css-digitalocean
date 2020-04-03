@@ -291,7 +291,7 @@ p.after-h2 {
     color:black ;
     position: absolute;
     top: 50%;
-    transform:translateX(+80%);
+    transform:translateX(180%);
     right: 0;
 }
 
@@ -343,4 +343,65 @@ p.after-h2 {
     color: #0069ff;
     font-size: 15px;
     font-weight: 600;
+}
+
+#earth h2{
+    color: white;
+    padding-bottom: 50px;
+}
+
+#earth {
+    background: #031b4e url(img/earth.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.line {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.line div:first-of-type{
+    color:white;
+    font-weight: 600;
+}
+
+.line div:nth-of-type(2){
+    color:white;
+    opacity: 0.6;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.line div:last-of-type a {
+    color: #00d7d2;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.line div:last-of-type a:hover{
+    color: #0069ff;
+    background-color: transparent;
+}
+
+.space{
+    padding-bottom: 20px;
+    border: none;
+}
+
+
+
+@media (max-width:767px) {
+    .img-gallery::before{
+        display: none;
+    }
+    .img-gallery::after {
+        display: none;
+    }
+
 }
