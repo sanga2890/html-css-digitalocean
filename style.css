@@ -80,6 +80,12 @@
     margin-top: 15px;
 }
 
+.header-bottom.nav.navbar-right button:hover{
+    background-color: #0069ff;
+    color: #fff;
+    border-color: #0069ff;
+}
+
 #jumbotron {
     background: #0248ff url(img/jumbotron.jpg);
     padding-top: 70px;
@@ -172,6 +178,8 @@
 
 button[name="account"]{
     background-color: #0069ff;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 button[name="account"]:hover{
@@ -179,6 +187,8 @@ button[name="account"]:hover{
 }
 
 .sign-in {
+    padding-left:0 ;
+    padding-right: 0;
     padding-bottom: 30px;
 }
 
@@ -188,22 +198,35 @@ button[name="account"]:hover{
     font-weight: 400;
 }
 
-button[name="google"] img{
-    padding-right: 20px;
+.btn-google{
+    padding-left: 0;
+    padding-right: 6px;
 }
 
-button[name="github"] img{
-    padding-right: 20px;
+.btn-github {
+    padding-right: 0;
+    padding-left: 6px;
 }
 
-button[name="google"]{
+.btn-github img, .btn-google img {
+    position:absolute;
+    top:50%;
+    left:16px;
+    transform: translateY(-50%);
+}
+
+button[name="google"],button[name="github"]{
+    font-size: 17px;
     font-weight: 600;
-    font-size: 18px;
+    color:  #031b4e;
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    border-radius: 3px;
 }
 
-button[name="github"]{
-    font-weight: 600;
-    font-size: 18px;
+button[name="google"]:hover,button[name="github"]:hover{
+    background: #d5e4f7;
+    border: 1px solid rgba(0,105,255,.2);
 }
 
 #sponsor {
@@ -641,5 +664,6 @@ footer a:hover{
 
     #jumbotron h1{
         font-size: 40px;
+        padding-top: 0;
     }
 }
